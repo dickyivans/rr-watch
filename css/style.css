@@ -127,7 +127,7 @@ footer li {
   }
 
   .hero {
-    margin-top: -7.6rem;
+    margin-top: -6.6rem;
   }
 }
 
@@ -140,6 +140,11 @@ footer li {
 
   .product {
     padding: 6rem 7% 1.4rem;
+  }
+
+  .hero::after {
+    display: none;
+    content: none; /* Pastikan tidak ada konten yang ditampilkan */
   }
 }
 
